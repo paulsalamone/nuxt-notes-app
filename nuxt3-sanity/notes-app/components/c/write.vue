@@ -7,8 +7,10 @@
       <button type="submit">post</button>
     </form>
     <div v-for="(note, index) in allNotes" :key="index">
+      <p>---------------------</p>
       <h3>{{ note.title }}</h3>
       <p>{{ note.text }}</p>
+      <p>---------------------</p>
     </div>
   </div>
 </template>

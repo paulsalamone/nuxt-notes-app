@@ -1,0 +1,19 @@
+@import "normalize-scss";
+
+@import "fonts.scss";
+@import "colors.scss";
+// GLOBAL STYLES
+
+    // * {
+    // border: 0.5px dotted $warm-gray1;
+    // box-sizing: border-box;
+    // }
+
+    html {
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+    }

@@ -1,7 +1,11 @@
 <template>
   <div>
-    <NuxtLayout>
-      <h2>index</h2>
+    <NuxtLayout #main-slot>
+      <!-- write component -->
+      <c-write></c-write>
+      <!-- notes list component -->
     </NuxtLayout>
   </div>
 </template>
+
+

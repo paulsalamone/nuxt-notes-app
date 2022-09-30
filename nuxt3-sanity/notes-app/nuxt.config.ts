@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   css: ["~/assets/styles/index.scss"],
   modules: [
     // ...
+    ["@nuxtjs/sanity"],
     [
       "@pinia/nuxt",
       {
@@ -25,4 +26,9 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  sanity: {
+    projectId: "syitfzqm",
+    apiVersion: "2022-09-30",
+    dataset: "production",
+  },
 });

@@ -1,9 +1,8 @@
 <template>
   <div>
     <NuxtLayout #main-slot>
-      <!-- write component -->
-      <c-write></c-write>
-      <!-- notes list component -->
+      <CWrite />
+      <CNotes />
     </NuxtLayout>
   </div>
 </template>

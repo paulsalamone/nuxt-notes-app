@@ -1,0 +1,11 @@
+{
+  "name": "synthae-vanilla",
+  "version": "1.0.0",
+  "description": "sound plus image",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ps",
+  "license": "ISC"
+}
